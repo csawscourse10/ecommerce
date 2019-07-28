@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Dream Store
+    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/home.css">
+</head>
+<body>
+    <button class='btn toast-msg'>
+        Added to cart
+    </button>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Dream Store</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#">Home</a></li> -->
+                <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li> -->
+                <!-- <li><a href="#">Page 2</a></li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+    <div class='resp'>
+        <div class="resp-head">
+            <h4><span class="type"></span> Category</h4>
+            <hr>
+        </div>
+        <div class='loading'>
+            Loading...
+        </div>
+        <div class='resp-body'></div>
+    </div>
+    <div class="copy" style="display:none;">
+        <div class="product col-sm-3">
+            <div class='row'>
+                <div class='product-inside'>
+                    <div class='img-wrap' >
+                        <div class='overlay-wrap hidden'><div class="overlay"></div></div>
+                        <div class="overlay-wrap hidden"><button class='btn add-cart-btn'>Add to cart</button></div>
+                        <img class='product-img' src='static/hp.jpg' style='width:100%'>
+                    </div>
+                    <div class='desc'>
+                        <div class="name"></div>
+                        <div class="cost-wrap">Rs.<span class="cost"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap.js"></script>
+    <script type="text/javascript" src="static/home.js"></script>
+</body>
+</html>
